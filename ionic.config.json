@@ -1,0 +1,7 @@
+{
+  "name": "XtrimApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
