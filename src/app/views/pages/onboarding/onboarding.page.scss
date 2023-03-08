@@ -1,0 +1,88 @@
+
+ion-content{
+
+  --background: none;
+  background-image: url(../../../../assets/img/Back.svg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+
+.logo-principal{
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  left: 20px;
+  top: 27px;
+
+}
+
+.onb-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+
+}
+
+.onb-img{
+  margin-top: 30%;
+}
+
+
+
+h4{
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #222D44;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+p{
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  color: #525A6C;
+  text-align: justify;
+  padding: 0px 30px 0px 18px;
+
+
+}
+
+.swiper-pagination{
+
+  text-align: start;
+  margin-left: 25px;
+
+}
+
+
+.btn-slide{
+  text-align: end;
+  justify-content: end;
+
+
+}
+
+ion-button{
+
+  color: #4A3CDB;
+  text-transform: capitalize;
+
+
+
+
+}
+

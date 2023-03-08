@@ -12,6 +12,7 @@
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
 
+
 /* Basic CSS for apps built with Ionic */
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
@@ -24,3 +25,34 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+// estilos swiper
+@import 'swiper/scss';
+@import '@ionic/angular/css/ionic-swiper';
+@import 'swiper/scss/pagination';
+@import 'swiper/scss/autoplay';
+
+
+.swiper-pagination-bullet{
+
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+
+/* Tints/Ocean-Blue/10% */
+
+  color: #F2F1FC !important;
+  border-radius: 8px;
+
+}
+.swiper-pagination-bullet-active{
+  width: 20px !important;
+  height: 8px !important;
+  background: #4A3CDB !important;
+  border-radius: 8px !important;
+}
+
+
+
+
